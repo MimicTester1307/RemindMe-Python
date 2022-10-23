@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>RemindMe</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/Hero-Clean-images.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Basic-icons.css">
+</head>
+
+<body style="border-style: none;border-color: black;">
+    <section>
+        <nav class="navbar navbar-light navbar-expand-md py-3" style="background: rgb(146,61,65);margin: 0px -12px 48px;">
+            <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="margin: 0px 8px 0px 4px;background: var(--bs-navbar-disabled-color);"><img src="static/img/favicon.png" width="32" height="32"></span><span style="color: black;">RemindMe</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"></li>
+                    </ul><button class="btn btn-primary float-end" type="button" style="background: black;border-color: rgb(146,61,65);color: white;">Log Out</button>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row" style="margin: 0px 0px 48px;">
+                <div class="col"><button class="btn btn-primary" type="button" style="background: rgb(146,61,65);color: white;border-color: white;">View Courses</button></div>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item"><span>List Group Item 1</span></li>
+                <li class="list-group-item"><span>List Group Item 2</span></li>
+                <li class="list-group-item"><span>List Group Item 3</span></li>
+            </ul>
+            <div class="row">
+                <div class="col"><button class="btn btn-primary float-end" type="button" style="margin: 48px 0px 48px;background: rgb(146,61,65);border-color: white;" data-bs-target="#modal-1" data-bs-toggle="modal">Sync with Calendar</button></div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Sign in to Calendar</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container justify-content-center">
+                            <div class="row">
+                                <div class="col-md-6" style="margin-right: -49px;padding-left: 118px;"><img src="assets/img/icons8-google-calendar-48.png" style="padding-left: 0px;margin-left: 36px;"></div>
+                                <div class="col-md-6" style="padding-left: 38px;"><img src="assets/img/icons8-outlook-calendar.svg" style="padding-left: 0px;margin-left: 26px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn" type="button" style="background: black;border-style: none;color: white;">Sync</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+</body>
+
+</html>

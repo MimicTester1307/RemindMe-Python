@@ -12,7 +12,7 @@ def show_home():
 
 @app.route('/login')
 def show_login():
-    return render_template('login.html')  # TODO: Fix login routing from index page
+    return render_template('login.html')
 
 
 if __name__ == '__main__':
